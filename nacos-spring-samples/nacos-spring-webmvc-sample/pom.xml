@@ -5,7 +5,7 @@
     <parent>
         <artifactId>nacos-spring-samples</artifactId>
         <groupId>com.alibaba.nacos</groupId>
-        <version>0.2.3-RC1</version>
+        <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -36,6 +36,14 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+
+
 
         <dependency>
             <groupId>${project.groupId}</groupId>
